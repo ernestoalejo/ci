@@ -7,7 +7,7 @@ Helper to run CI/CR related commands.
 ## Setup
 
 ```shell
-curl https://raw.githubusercontent.com/ernestoalejo/ci/master/LICENSE > ~/bin/ci && chmod +x ~/bin/ci
+curl https://raw.githubusercontent.com/ernestoalejo/ci/master/ci.sh > ~/bin/ci && chmod +x ~/bin/ci
 ```
 
 
