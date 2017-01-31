@@ -26,4 +26,11 @@ release)
   git update-ref -m "release: Release to " refs/heads/release $(git ls-remote origin master --refs | cut -f 1)
   git push -f origin release
   ;;
+
+update)
+  echo "===> Update master to remote counterpart..."
+  git fetch origin
+  git checkout master
+  git reset --hard origin/master
+  ;;
 esac
